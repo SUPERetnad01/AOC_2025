@@ -1,0 +1,17 @@
+/home/superetnad01/code/AOC_2025/bin/Debug/net9.0/AOC_2025
+/home/superetnad01/code/AOC_2025/bin/Debug/net9.0/AOC_2025.deps.json
+/home/superetnad01/code/AOC_2025/bin/Debug/net9.0/AOC_2025.runtimeconfig.json
+/home/superetnad01/code/AOC_2025/bin/Debug/net9.0/AOC_2025.dll
+/home/superetnad01/code/AOC_2025/bin/Debug/net9.0/AOC_2025.pdb
+/home/superetnad01/code/AOC_2025/obj/Debug/net9.0/AOC_2025.GeneratedMSBuildEditorConfig.editorconfig
+/home/superetnad01/code/AOC_2025/obj/Debug/net9.0/AOC_2025.AssemblyInfoInputs.cache
+/home/superetnad01/code/AOC_2025/obj/Debug/net9.0/AOC_2025.AssemblyInfo.cs
+/home/superetnad01/code/AOC_2025/obj/Debug/net9.0/AOC_2025.csproj.CoreCompileInputs.cache
+/home/superetnad01/code/AOC_2025/obj/Debug/net9.0/AOC_2025.dll
+/home/superetnad01/code/AOC_2025/obj/Debug/net9.0/refint/AOC_2025.dll
+/home/superetnad01/code/AOC_2025/obj/Debug/net9.0/AOC_2025.pdb
+/home/superetnad01/code/AOC_2025/obj/Debug/net9.0/AOC_2025.genruntimeconfig.cache
+/home/superetnad01/code/AOC_2025/obj/Debug/net9.0/ref/AOC_2025.dll
+/home/superetnad01/code/AOC_2025/bin/Debug/net9.0/Inputs/Day1.txt
+/home/superetnad01/code/AOC_2025/bin/Debug/net9.0/Inputs/Day2.txt
+/home/superetnad01/code/AOC_2025/bin/Debug/net9.0/Inputs/Day3.txt

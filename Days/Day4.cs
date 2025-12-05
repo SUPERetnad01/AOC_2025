@@ -32,7 +32,7 @@ public class Day4
             }
         }
 
-        Console.WriteLine($"Day3 PartOne: {result}");
+        Console.WriteLine($"Day4 PartOne: {result}");
 
     }
 
@@ -60,7 +60,7 @@ public class Day4
         }
 
 
-        Console.WriteLine($"Day3 PartOne: {total}");
+        Console.WriteLine($"Day4 PartOne: {total}");
     }
 
     private (Grid<char> newGrid, int rollsRemoved) RemoveRollOfPaper(Grid<char> grid)

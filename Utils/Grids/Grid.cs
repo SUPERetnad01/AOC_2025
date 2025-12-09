@@ -37,9 +37,15 @@ public class Grid<T>
     public Grid(List<List<Cell<T>>> cells)
     {
         CellGrid = cells;
+        Cells = cells.SelectMany(_ => _).ToHashSet();
     }
 
-
+    public Grid(Grid<T> grid)
+    {
+        Cells = grid.Cells;
+        CellGrid = grid.CellGrid;
+        CurrentPossition = grid.CurrentPossition;
+    }
 
     public Cell<T>? GetCellByCoordinate(Coordinate cords)
     {

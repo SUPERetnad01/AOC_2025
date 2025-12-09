@@ -23,6 +23,23 @@ public class Coordinate
     public int Y { get; set; }
     public int X { get; set; }
 
+
+    public override string ToString()
+    {
+        return $"x:{X}, y:{Y}";
+    }
+    public Coordinate()
+    {
+    }
+
+    public Coordinate(Coordinate coordinate)
+    {
+        X = coordinate.X;
+        Y = coordinate.Y;
+    }
+
+
+
     public int ManhatanDistance(Coordinate otherCoordinate)
     {
         var xDiff = Math.Abs(X - otherCoordinate.X);

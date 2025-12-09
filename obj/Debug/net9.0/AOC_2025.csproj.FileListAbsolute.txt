@@ -18,3 +18,5 @@
 /home/superetnad01/code/AOC_2025/bin/Debug/net9.0/Inputs/Day4.txt
 /home/superetnad01/code/AOC_2025/obj/Debug/net9.0/AOC_2025.sourcelink.json
 /home/superetnad01/code/AOC_2025/bin/Debug/net9.0/Inputs/Day5.txt
+/home/superetnad01/code/AOC_2025/bin/Debug/net9.0/Inputs/Day6.txt
+/home/superetnad01/code/AOC_2025/bin/Debug/net9.0/Inputs/Day7.txt

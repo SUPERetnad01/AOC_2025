@@ -58,7 +58,7 @@ public class Day1
 
         }
 
-        Console.WriteLine(zeroCounter);
+        Console.WriteLine($"Day1 PartOne:{zeroCounter}");
     }
 
     public void PartTwo()
@@ -122,6 +122,6 @@ public class Day1
 
         }
 
-        Console.WriteLine(zeroCounter);
+        Console.WriteLine($"Day1 PartTwo:{zeroCounter}");
     }
 }

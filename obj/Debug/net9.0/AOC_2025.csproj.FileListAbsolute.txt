@@ -20,3 +20,4 @@
 /home/superetnad01/code/AOC_2025/bin/Debug/net9.0/Inputs/Day5.txt
 /home/superetnad01/code/AOC_2025/bin/Debug/net9.0/Inputs/Day6.txt
 /home/superetnad01/code/AOC_2025/bin/Debug/net9.0/Inputs/Day7.txt
+/home/superetnad01/code/AOC_2025/bin/Debug/net9.0/Inputs/Day8.txt

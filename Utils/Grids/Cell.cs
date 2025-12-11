@@ -111,6 +111,12 @@ public class Coordinate
         return false;
     }
 
+    public int CrossProduct(Coordinate coordinate)
+    {
+        return coordinate.X * Y - coordinate.Y * X;
+
+    }
+
     // Override GetHashCode
     public override int GetHashCode()
     {

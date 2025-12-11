@@ -8,6 +8,7 @@ var day5 = new Day5();
 var day6 = new Day6();
 var day7 = new Day7();
 var day8 = new Day8();
+var day9 = new Day9();
 
 day1.PartOne();
 day1.PartTwo();
@@ -32,3 +33,6 @@ day7.PartTwo();
 
 day8.PartOne();
 day8.PartTwo();
+
+day9.PartOne();
+day9.PartTwo();

@@ -6,7 +6,6 @@ public class Grid<T>
     public List<List<Cell<T>>> CellGrid { get; set; } = [];
     public Cell<T> CurrentPossition { get; set; }
 
-
     public Grid(List<List<T>> grid)
     {
         for (int y = 0; y < grid.Count; y++)
@@ -45,6 +44,7 @@ public class Grid<T>
         Cells = grid.Cells;
         CellGrid = grid.CellGrid;
         CurrentPossition = grid.CurrentPossition;
+
     }
 
     public Cell<T>? GetCellByCoordinate(Coordinate cords)
@@ -84,6 +84,7 @@ public class Grid<T>
     public bool IsInGrid(Cell<T> cell)
     {
         var isNotInGrid = cell.Coordinate.Y < 0 || cell.Coordinate.X < 0 || cell.Coordinate.Y >= CellGrid.Count || cell.Coordinate.X >= CellGrid.First().Count;
+
         return !isNotInGrid;
     }
 
@@ -96,23 +97,15 @@ public class Grid<T>
 
     public void PrintGrid()
     {
-        int maxX = Cells.Max(c => c.Coordinate.X);
-        int maxY = Cells.Max(c => c.Coordinate.Y);
-
-        T[,] grid = new T[maxY + 1, maxX + 1];
-
-        foreach (var cell in Cells)
+        foreach (var y in CellGrid)
         {
-            grid[cell.Coordinate.Y, cell.Coordinate.X] = cell.Value;
-        }
-
-        for (int y = 0; y <= maxY; y++)
-        {
-            for (int x = 0; x <= maxX; x++)
+            foreach (var x in y)
             {
-                Console.Write(grid[y, x]?.ToString() ?? " " + "\t");
+
+                Console.Write($"{x.Value} ");
             }
             Console.WriteLine();
+
         }
     }
 
